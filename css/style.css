@@ -1,3 +1,160 @@
+* {
+    margin: 0;
+	padding: 0;
+}
 body {
 	font-family: "Montserrat";
 }
+.header {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+.header-navigation__link {
+	text-decoration: none;
+	padding: 0 21px;
+}
+.menu__item {
+	text-decoration: none;
+}
+.intro {
+	text-align: center;
+}
+.intro__title {
+	font-size: 90px;
+	font-weight: 600;
+	margin-top: 56px;
+}
+.intro__subtitle {
+	font-size: 15px;
+	font-weight: 500;
+}
+.characteristic__content-mark {
+	display: block;
+    height: auto;
+	margin: auto;
+	margin-bottom: 51px;
+}
+.characteristic__content-blk {
+	display: flex;
+	margin-left: 251px;
+	margin-bottom: 30px;
+}
+.params__content {
+	margin-left: 103px;
+}
+.params__option {
+	font-size: 35px;
+	font-weight: 600;
+	margin-left: 9px;
+}
+.params-spn {
+	font-size: 20px;
+	font-weight: 600;
+}
+.params__clarification {
+	font-size: 12px;
+	font-weight: 700;
+}
+.params__option_sm {
+	font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.params__option-btn {
+	color: #E51937;
+    width: 160px;
+    height: 40px;
+    text-transform: uppercase;
+    border: 2px solid;
+    background: #FFFFFF;
+}
+/* к-ны??????
+.specification {
+	display: flex;
+    justify-content: space-between;
+}
+.specification__picture {
+	background: url(../img/model.png) no-repeat;
+	width: 100%;
+    height: 844px
+}
+.specification__title {
+	font-size: 70px;
+	font-weight: 600;
+	color:#E51937;
+}
+.specification__content {
+	background: #E51937;
+    color: #fff;
+    width: 433px;
+	height: 900px;
+	padding: 52px 73px 62px 56px;
+}
+.options {
+	background: url(../img/screen.svg) no-repeat;
+}
+.description {
+	display: flex;
+}
+.description__car-img {
+	width: 100%;
+}
+.description__fond {
+	background-color: #e51937;
+    flex-direction: column;
+    color: #fff;
+    max-width: 440px;
+}
+.description__title {
+	font-size: 30px;
+	font-weight: 600;
+    margin: 50px 0 10px 36px;
+}
+.description__text {
+	font-size: 15px;
+	font-weight: 500;
+    margin: 0 60px 65px 36px;
+}
+.description__claster {
+	display: flex;
+    flex-direction: column;
+    margin: 0 0 85px 42px;
+}
+.description__title {
+	font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+.rating {
+	padding-left: 58px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 84px;
+}
+.description__rating-category {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+    align-items: center;
+}
+.rating__point {
+	font-size: 17px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.rating__stars {
+	display: inline-block;
+    width: 135px;
+    height: 25px;
+	background-image: url(../img/Star.svg);
+	background-size: 27px 25px;
+}
+*/
