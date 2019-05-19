@@ -34,7 +34,11 @@ body {
 	position: absolute;
 	height: 2px;
 	width: 100%;
+<<<<<<< HEAD
 	right: 224px;
+=======
+	right: 197px;
+>>>>>>> 717471c8ce4bedbb348f7fa81f7bd45e177fc5c6
 	top: 41px;
 }
 .menu {
@@ -309,6 +313,7 @@ body {
 		margin-left: 9px;
 	}
 }
+<<<<<<< HEAD
 @media screen and (max-width: 375px) {
 	.params__content {
 		margin-left: 48px
@@ -317,3 +322,5 @@ body {
 		margin-left: 42px;
 	}
 }
+=======
+>>>>>>> 717471c8ce4bedbb348f7fa81f7bd45e177fc5c6
