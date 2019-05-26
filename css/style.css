@@ -26,20 +26,8 @@ body {
 }
 .header-navigation__link_active {
 	color: #E51937;
-<<<<<<< HEAD
 	border-bottom: 2px solid;
 	padding: 0px 0px 6px 0;
-=======
-}
-.header-navigation__link_active::after {
-	content: "";
-	background: url(../img/red_line.svg) bottom no-repeat;
-	display: block;
-	position: absolute;
-	height: 2px;
-	width: 100%;
-	right: 223px;
->>>>>>> 492a231da16f2a5bda613eaddfc7bcedd8af97d7
 }
 .menu {
 	margin-right: 0px;
