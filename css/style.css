@@ -1,9 +1,12 @@
 * {
-    margin: 0 auto;
+    
 	max-width: 1440px;
 }
 body {
 	font-family: "Montserrat";
+}
+.wrap {
+	margin: 0 auto;
 }
 .header {
 	display: flex;
@@ -11,35 +14,20 @@ body {
     align-items: center;
 	font-size: 15px;
 	font-weight: 600;
-	margin-left: 10px;
-}
-.header__logo {
-	margin-left: 0px;
+
 }
 .header-navigation {
-	margin-left: 122px;
+	margin-left: 7px;
 }
 .header-navigation__link {
 	text-decoration: none;
-	padding: 0 16px;
+	padding: 0px 16px 0 24px;
 	color: #000000;
 }
 .header-navigation__link_active {
 	color: #E51937;
-}
-.header-navigation__link_active::after {
-	content: "";
-	background: url(../img/red_line.svg) bottom no-repeat;
-	display: block;
-	position: absolute;
-	height: 2px;
-	width: 100%;
-<<<<<<< HEAD
-	right: 224px;
-=======
-	right: 197px;
->>>>>>> 717471c8ce4bedbb348f7fa81f7bd45e177fc5c6
-	top: 41px;
+	border-bottom: 2px solid;
+	padding: 0px 0px 6px 0;
 }
 .menu {
 	margin-right: 0px;
@@ -52,14 +40,14 @@ body {
 .intro__title {
 	font-size: 90px;
 	font-weight: 600;
-	margin-top: 58px;
-	margin-left: 29px;
+	margin: 60px 0px 0px 19px;
 	text-align: center;
 }
 .intro__subtitle {
 	font-size: 15px;
 	font-weight: 500;
-	margin-left: 29px;
+	margin-top: 0;
+	margin-left: 20px;
 	text-align: center;
 }
 .characteristic__content-mark {
@@ -70,20 +58,20 @@ body {
 .characteristic__content-blk {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 187px;
+	justify-content: center;
 	margin-bottom: 30px;
 }
 .params {
-	margin: 0;
+	margin-left: 95px;
+	display: flex;
 }
 .params__content {
-	margin-left: 70px;
     margin-top: 5px;
 }
 .params__option {
 	font-size: 35px;
 	font-weight: 600;
-	margin-left: 9px;
+	margin: auto;
 }
 .params-spn {
 	font-size: 20px;
@@ -92,7 +80,7 @@ body {
 .params__clarification {
 	font-size: 12px;
 	font-weight: 700;
-	margin-left: 12px;
+	display: block;
 }
 .params__option_sm {
 	font-weight: bold;
@@ -123,7 +111,10 @@ body {
 	background: #FFFFFF;
 	margin-left: 33px;
 }
-
+.intro__check {
+	display: block;
+	margin: 0 auto;
+}
 
 /*
 .specification {
@@ -210,17 +201,7 @@ body {
 	background-size: 27px 25px;
 }
 */
-@media screen and (max-width: 1240px) {
-	.menu__burger {
-		margin-right: 11px;
-	}
-	.characteristic__content-blk {
-		margin-left: 77px;
-   }
-   .header-navigation__link_active::after {
-	right: 193px;
-   }
-}
+
 @media screen and (max-width: 1080px) {
 	.log {
 		margin-left: 104px;
@@ -233,40 +214,23 @@ body {
 	.log__option_sm {
 	background: url(../img/steering-wheel_red.svg) bottom no-repeat;
     background-position-x: 0%;
-    padding-left: 28px;
 	padding-top: 3px;
 	color: #E51937;
 	}
-	.characteristic__content-blk {
-		margin-left: 211px;
-	}
+}
+@media screen and (max-width: 902px) {
+ .header-navigation {
+	 display: none;
+ }
+ .menu__item {
+	 display: none;
+ }
+}
+@media screen and (max-width: 768px) {
 	.params__option {
 		font-size: 50px;
 	}
-	.header-navigation {
-		display: none;
-	}
-	.menu__item {
-		display: none;
-	}
-	.params {
-		flex-direction: column;
-	}
-}
-@media screen and (max-width: 858px) {
-	.characteristic__content-blk {
-		margin-left: 134px;
-	}
-}
-@media screen and (max-width: 768px) {
-	.characteristic__content-blk {
-		margin-left: 55px
-	}
-}
-@media screen and (max-width: 580px) {
-	.characteristic__content-blk {
-		margin-left: 0px;
-	}
+
 }
 @media screen and (max-width: 525px) {
 	.intro__title {
@@ -275,52 +239,25 @@ body {
 	.intro__subtitle {
 		font-size: 10px;
 	}
-	.characteristic__content-blk {
-		margin-left: 0px;
+	.params {
+		margin-left: 49px;
+	}
+	.log {
+		margin-left: 50px;
 	}
 	.params__option {
 		font-size: 27px;
-
 	}
 	.params-spn {
 		font-size: 15px;
-
 	}
 	.params__clarification {
 		font-size: 10px;
-
 	}
-	.log {
-		margin-left: 75px;
-	}
-}
-@media screen and (max-width: 476px) {
-	.params__content {
-		margin-left: 74px;
+	.params {
+		margin-left: 21px;
 	}
 	.log__option-btn {
-		margin-left: 44px;
+		margin-left: 0px;
 	}
 }
-@media screen and (max-width: 420px) {
-	.params__content {
-		margin-left: 63px
-	}
-	.log {
-		margin-left: 59px;
-	}
-	.log__option-btn {
-		margin-left: 9px;
-	}
-}
-<<<<<<< HEAD
-@media screen and (max-width: 375px) {
-	.params__content {
-		margin-left: 48px
-	}
-	.log {
-		margin-left: 42px;
-	}
-}
-=======
->>>>>>> 717471c8ce4bedbb348f7fa81f7bd45e177fc5c6
