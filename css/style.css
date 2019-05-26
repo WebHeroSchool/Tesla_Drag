@@ -1,17 +1,14 @@
 * {
-    
+    	margin: 0 auto;
 	max-width: 1440px;
 }
 body {
 	font-family: "Montserrat";
 }
-.wrap {
-	margin: 0 auto;
-}
 .header {
 	display: flex;
 	justify-content: space-between;
-    align-items: center;
+   	align-items: center;
 	font-size: 15px;
 	font-weight: 600;
 
@@ -104,10 +101,10 @@ body {
 .log__option-btn {
 	font-weight: 700;
 	color: #E51937;
-    width: 160px;
-    height: 40px;
-    text-transform: uppercase;
-    border: 2px solid;
+	width: 160px;
+	height: 40px;
+	text-transform: uppercase;
+	border: 2px solid;
 	background: #FFFFFF;
 	margin-left: 33px;
 }
