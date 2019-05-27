@@ -1,15 +1,26 @@
+<<<<<<< HEAD
+=======
+* {
+    	
+	max-width: 1440px;
+}
+>>>>>>> 7d485602bc7b1fd9536456d2911bba017230630e
 body {
 	font-family: "Montserrat";
 }
 .wrap {
+<<<<<<< HEAD
 	margin: 0 auto;
 	max-width: 1440px;
 	min-width: 320px;
+=======
+margin: 0 auto;
+>>>>>>> 7d485602bc7b1fd9536456d2911bba017230630e
 }
 .header {
 	display: flex;
 	justify-content: space-between;
-    align-items: center;
+   	align-items: center;
 	font-size: 15px;
 	font-weight: 600;
 
@@ -25,8 +36,13 @@ body {
 .header-navigation__link_active {
 	color: #E51937;
 	border-bottom: 2px solid;
+<<<<<<< HEAD
 	padding: 0px 0px 6px 0;}
 
+=======
+	padding: 0px 0px 6px 0;
+}
+>>>>>>> 7d485602bc7b1fd9536456d2911bba017230630e
 .menu {
 	margin-right: 0px;
 }
@@ -102,10 +118,10 @@ body {
 .log__option-btn {
 	font-weight: 700;
 	color: #E51937;
-    width: 160px;
-    height: 40px;
-    text-transform: uppercase;
-    border: 2px solid;
+	width: 160px;
+	height: 40px;
+	text-transform: uppercase;
+	border: 2px solid;
 	background: #FFFFFF;
 	margin-left: 33px;
 }
@@ -267,6 +283,7 @@ body {
 		margin-left: 0px;
 	}
 }
+<<<<<<< HEAD
 @media screen and (max-width: 380px) {
 	.params {
 		margin-left: 0px;
@@ -275,3 +292,5 @@ body {
 		margin-left: 0px;
 	}
 }
+=======
+>>>>>>> 7d485602bc7b1fd9536456d2911bba017230630e
