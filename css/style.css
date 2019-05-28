@@ -2,16 +2,10 @@ body {
 	font-family: "Montserrat";
 }
 .wrap {
-<<<<<<< HEAD
-	margin: 0 auto;
-	max-width: 1440px;
-	min-width: 385px;
-=======
 
 	margin: 0 auto;
 	max-width: 1440px;
-	min-width: 320px;
->>>>>>> 35699d4bb80eedf1ab67dffc271a6ae6ac992812
+	min-width: 385px;
 }
 .header {
 	display: flex;
@@ -316,12 +310,7 @@ body {
 	}
 
 }
-<<<<<<< HEAD
-
 @media screen and (max-width: 450px) {
-=======
-@media screen and (max-width: 380px) {
->>>>>>> 35699d4bb80eedf1ab67dffc271a6ae6ac992812
 	.params {
 		margin-left: 16px;
 		margin-right: 22px;
