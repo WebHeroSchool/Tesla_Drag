@@ -2,16 +2,9 @@ body {
 	font-family: "Montserrat";
 }
 .wrap {
-<<<<<<< HEAD
 	margin: 0 auto;
 	max-width: 1440px;
 	min-width: 385px;
-=======
-
-	margin: 0 auto;
-	max-width: 1440px;
-	min-width: 320px;
->>>>>>> 35699d4bb80eedf1ab67dffc271a6ae6ac992812
 }
 .header {
 	display: flex;
@@ -25,22 +18,32 @@ body {
 }
 .header-navigation__link {
 	text-decoration: none;
-	padding: 0px 16px 0 24px;
 	color: #000000;
+	margin: 0px 32px 1px 0;
+	
+}
+.header-navigation__link:hover {
+	color: #E51937;
+	border-bottom: 2px solid;
+	padding: 0px 0px 6px 0;
 }
 .header-navigation__link_active {
 	color: #E51937;
 	border-bottom: 2px solid;
-	padding: 0px 0px 6px 0;}
+	padding: 0px 0px 6px 0px;
 }
-
 .menu {
 	margin-right: 0px;
 }
 .menu__item {
 	text-decoration: none;
-	padding-right: 25px;
+	margin-right: 25px;
 	color: #000000;
+}
+.menu__item:hover {
+	color: #E51937;
+	border-bottom: 2px solid;
+	padding: 0px 0px 6px 0;
 }
 .menu__burger {
 	margin-right: 8px;
@@ -111,6 +114,15 @@ body {
 	padding-top: 5px;
 	padding-left: 25px;
 	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.log__option_sm:hover {
+	color: #E51937;
+	background: url(../img/steering-wheel_red.svg) bottom no-repeat;
+	background-position-x: 0%;
+	padding-top: 5px;
+	padding-left: 25px;
 }
 .log__option-btn {
 	font-weight: 700;
@@ -121,6 +133,12 @@ body {
 	border: 2px solid;
 	background: #FFFFFF;
 	margin-left: 33px;
+	outline: none;
+	cursor: pointer;
+}
+.log__option-btn:hover {
+	color: #FFFFFF;
+	background: #E51937;
 }
 .intro__check {
 	display: block;
@@ -249,23 +267,26 @@ body {
 		background: #E51937;
 	}
 	.log__option_sm {
-	background: url(../img/steering-wheel_red.svg) bottom no-repeat;
-    background-position-x: 0%;
-	padding-top: 3px;
-	color: #E51937;
+		background: url(../img/steering-wheel_red.svg) bottom no-repeat;
+		background-position-x: 0%;
+		padding-top: 3px;
+		color: #E51937;
 	}
 }
 @media screen and (max-width: 902px) {
- .header-navigation {
-	 display: none;
- }
- .menu__item {
-	 display: none;
- }
+	.header-navigation {
+		 display: none;
+	}
+	.menu__item {
+	 	display: none;
+	}
 }
 @media screen and (max-width: 858px) {
-.log {
-	margin-left: 58px;
+	.log {
+		margin-left: 58px;
+	}
+	.characteristic__wrap {
+		margin-top: 30px;
 	}
 }
 
@@ -279,6 +300,29 @@ body {
 	}
 	.log {
 		margin-left: 31px;
+	}
+	.log__option_sm {
+		color: #E51937;
+		background: url(../img/steering-wheel_red.svg) bottom no-repeat;
+		background-position-x: 0%;
+		padding-top: 5px;
+		padding-left: 25px;
+	}
+	.log__option_sm:hover {
+		background: url(../img/steering-wheel.svg) bottom no-repeat;
+		background-position-x: 0%;
+		padding-top: 5px;
+		padding-left: 25px;
+	}
+	.log__option-btn {
+		color: #FFFFFF;
+		background: #E51937;
+		outline: none;
+	}
+	.log__option-btn:hover {
+		color: #E51937;
+		background: #FFFFFF;
+		outline: none;
 	}
 }
 @media screen and (max-width: 525px) {
@@ -308,7 +352,7 @@ body {
 		margin-right: 39px;
 	}
 	.log__option-btn {
-		margin-left: 50px;
+		margin-left: 34px;
 		
 	}
 	.params__content {
@@ -316,23 +360,16 @@ body {
 	}
 
 }
-<<<<<<< HEAD
-
 @media screen and (max-width: 450px) {
-=======
-@media screen and (max-width: 380px) {
->>>>>>> 35699d4bb80eedf1ab67dffc271a6ae6ac992812
 	.params {
-		margin-left: 16px;
-		margin-right: 22px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.log {
-		margin-left: 44px;
-		margin-right: 46px;
+		margin-right: 0px;
 	}
-	.log__option-btn {
-		margin-left: 19px;
-		width: 125px;
+	.log__option_sm {
+		margin-left: 31px;
 	}
 	
 }
