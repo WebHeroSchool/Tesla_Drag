@@ -1,10 +1,11 @@
 body {
 	font-family: "Montserrat";
+	margin: 0px;
 }
 .wrap {
 	margin: 0 auto;
 	max-width: 1440px;
-	min-width: 385px;
+	min-width: 375px;
 }
 .header {
 	display: flex;
@@ -12,6 +13,7 @@ body {
    	align-items: center;
 	font-size: 15px;
 	font-weight: 600;
+	margin-bottom: 65px;
 }
 .header-navigation {
 	margin-left: 7px;
@@ -51,14 +53,13 @@ body {
 .intro__title {
 	font-size: 90px;
 	font-weight: 600;
-	margin: 60px 0px 0px 19px;
 	text-align: center;
+	margin-bottom: 0;
 }
 .intro__subtitle {
 	font-size: 15px;
 	font-weight: 500;
 	margin-top: 0;
-	margin-left: 20px;
 	text-align: center;
 }
 .characteristic__content-mark {
@@ -69,18 +70,19 @@ body {
 .characteristic__wrap {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin-bottom: 30px;
+	width: 980px;
+    margin: 0 auto;
 }
 .params {
-	margin-left: 80px;
 	display: flex;
 }
 .params__content {
     margin-top: 5px;
 }
 .params__bunch {
-	margin-left: 10px;
+	padding-left: 5px;
 }
 .params__option {
 	font-size: 35px;
@@ -104,7 +106,6 @@ body {
     margin-right: 40px;
 }
 .log {
-	margin-left: 100px;
     margin-top: 16px;
 }
 .log__option_sm {
@@ -132,7 +133,6 @@ body {
 	text-transform: uppercase;
 	border: 2px solid;
 	background: #FFFFFF;
-	margin-left: 33px;
 	outline: none;
 	cursor: pointer;
 }
@@ -144,11 +144,8 @@ body {
 	display: block;
 	margin: 0px auto 36px;
 }
-
-/*
 .specification {
 	display: flex;
-    justify-content: space-between;
 }
 .specification__picture {
 	background: url(../img/model.png) no-repeat;
@@ -159,7 +156,7 @@ body {
 	font-size: 70px;
 	font-weight: 600;
 	color:#E51937;
-	margin-left: 26px;
+	padding-left: 26px;
 }
 .specification__content {
 	background: #E51937;
@@ -168,72 +165,130 @@ body {
 	height: 844px;
 }
 .spec-content {
-	padding: 18px 0px 6px 54px;
+	padding: 18px 0px 6px 35px;
+	width: 351px;
+    margin: 0 auto;
 }
 .spec-content__title {
 	font-weight: 600;
 	font-size: 30px;
+	margin-bottom: 0;
 }
 .specification__characteristic {
-	padding: 9px 0 0 50px;
+	padding: 9px 0 0 35px;
+	margin-bottom: 100px;
 }
 .spacification__params {
 	display: flex;
+	padding-top: 18px;
+	margin-bottom: 44px;
+	padding-right: 100px;
+}
+.specification__pic {
+	padding-top: 5px;
+}
+.specification__options {
+	padding-left: 20px;
+}
+.specification__options_tiny {
+	padding-left: 12px;
+}
+.specification__info {
+	width: 330px;
+    margin: 0 auto;
+}
+.specification__link {
+	font-size: 13px;
+	font-weight: bold;
+	background: url(../img/info.svg) bottom no-repeat;
+	background-position-x: 0%;
+    padding-top: 5px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+	color: #FFFFFF;
+	padding: 4px 17px 4px 25px;
+}
+.specification__btn {
+	font-weight: 700;
+    color: #FFFFFF;
+    width: 160px;
+    height: 40px;
+    text-transform: uppercase;
+    border: 2px solid;
+    background: #E51937;
+    outline: none;
+    cursor: pointer;
 }
 .options__item {
 	font-weight: 600;
 	font-size: 35px;
+	margin: 0px;
 }
 .specification__item-sp {
 	font-weight: 600;
 	font-size: 20px;
+	padding-left: 9px;
+	margin-bottom: 0;
+}
+.specification__item-sp_tiny {
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0 0 0 0;
 }
 .options__item-cont {
-	font-weight: 700;
+	font-weight: normal;
 	font-size: 12px;
+	margin: 0px;
 }
-/*
-.options {
-	background: url(../img/screen.svg) no-repeat;
-}*/
 .description {
 	display: flex;
 }
 .description__car-img {
-	width: 100%;
+	width: 110%;
+    top: 279px;
+    right: 79px;
+    position: relative;
+}
+.description__car-img__smoll {
+	display: none;
 }
 .description__fond {
 	background-color: #e51937;
-    flex-direction: column;
     color: #fff;
-    max-width: 440px;
+	width: 465px;
+	padding: 18px 0px 6px 17px;
 }
 .description__title {
 	font-size: 30px;
 	font-weight: 600;
-    margin: 50px 0 10px 36px;
+    padding: 50px 0 10px 36px;
 }
 .description__text {
 	font-size: 15px;
 	font-weight: 500;
-    margin: 0 60px 65px 36px;
+	margin: 0px 43px 20px 17px;
+	padding-left: 15px;
+}
+.description___title-list {
+	font-size: 30px;
+	font-weight: 600;
+	padding-left: 16px
 }
 .description__claster {
 	display: flex;
     flex-direction: column;
-    margin: 0 0 85px 42px;
+    margin: 0 0 85px 0px;
 }
 .description__title {
 	font-size: 30px;
     font-weight: 600;
-    margin-bottom: 29px;
+    padding-left: 16px;
 }
 .rating {
-	padding-left: 58px;
-    padding-top: 16px;
+	padding-left: 16px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 84px;
 }
 .description__rating-category {
     margin-bottom: 12px;
@@ -248,6 +303,10 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+.rating__point-add {
+	font-weight: bold;
+	font-size: 10px;
+}
 .rating__stars {
 	display: inline-block;
     width: 135px;
@@ -255,14 +314,59 @@ body {
 	background-image: url(../img/Star.svg);
 	background-size: 27px 25px;
 }
-*/
-
-@media screen and (max-width: 1080px) {
-	.log {
-		margin-left: 104px;
+.description__logo {
+	display: flex;
+	padding-left: 15px;
+}
+.description__star {
+	font-weight: 600;
+	font-size: 50px;
+	padding-left: 20px;
+}
+.description__star-on {
+	font-weight: 600;
+	font-size: 25px;
+	display: block;
+}
+.description__info {
+	width: 361px;
+    margin: 0 auto 46px auto;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
+}
+.footer__develop {
+	font-weight: bold;
+    font-size: 9px;
+}
+@media screen and (max-width: 1225px) {
+	.description {
+		flex-direction: column-reverse;
 	}
+	.description__fond {
+		width: 100%;
+	}
+	.description__car-img {
+		width: 100%;
+		position: static;
+	}
+	.description__logo {
+		display: none;
+	}
+	.description__wrap {
+		display: flex;
+	}
+	.description__claster { 
+		width: 650px;
+	}
+}
+@media screen and (max-width: 1080px) {
+
 	.log__option-btn {
-		margin-left: 100px;
+
 		color: #FFFFFF;
 		background: #E51937;
 	}
@@ -281,25 +385,27 @@ body {
 	 	display: none;
 	}
 }
-@media screen and (max-width: 858px) {
-	.log {
-		margin-left: 58px;
+@media screen and (max-width: 760px) {
+	.specification {
+		display: flex;
+		flex-direction: column; 
 	}
+	.specification__wrap {
+		display: flex;
+	}
+	.specification__content {
+		width: 100%;
+		height: 571px;
+		}
+	.specification__characteristic {
+		margin-bottom: 59px;
+		}
 	.characteristic__wrap {
-		margin-top: 30px;
-	}
-}
-
-
-@media screen and (max-width: 730px) {
-	.params {
-		margin-left: 35px;
+		max-width: 370px;
+		margin: 30px auto;
 	}
 	.params__option {
 		font-size: 50px;
-	}
-	.log {
-		margin-left: 31px;
 	}
 	.log__option_sm {
 		color: #E51937;
@@ -324,19 +430,29 @@ body {
 		background: #FFFFFF;
 		outline: none;
 	}
+	.specification__title {
+		text-align: end;
+		padding-right: 20px;
+	}
+	
+	.specification__characteristic {
+		padding: 57px 0 0 35px;
+	}
+	.spacification__params {
+		padding-right: 0px;
+	}
+	.footer {
+		display: none;
+		width: 0;
+		height: 0;
+	}
 }
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 680px) {
 	.intro__title {
 		font-size:50px;
 	}
 	.intro__subtitle {
 		font-size: 10px;
-	}
-	.params {
-		margin-right: 28px;
-	}
-	.log {
-		margin-left: 0px;
 	}
 	.params__option {
 		font-size: 27px;
@@ -347,29 +463,30 @@ body {
 	.params__clarification {
 		font-size: 10px;
 	}
-	.params {
-		margin-left: 36px;
-		margin-right: 39px;
-	}
-	.log__option-btn {
-		margin-left: 34px;
-		
-	}
 	.params__content {
 		width: 50px;
 	}
+	.spec-content {
+		padding: 0 0 0 25px;
+	}
+}
+@media screen and (max-width: 570px) {
+	.specification__characteristic {
+		margin-bottom: 62px;
+	}
+	.description__security {
+		display: none;
+	}
+}
+@media screen and (max-width: 524px) {
+	.specification__characteristic {
+		display: none;
+	}
+	.specification__info {
+		display: none;
+	}
+	.specification__content {
+		height: 333px;
+	}
+}
 
-}
-@media screen and (max-width: 450px) {
-	.params {
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	.log {
-		margin-right: 0px;
-	}
-	.log__option_sm {
-		margin-left: 31px;
-	}
-	
-}
