@@ -269,21 +269,13 @@ body {
 .description__text {
 	font-size: 15px;
 	font-weight: 500;
-<<<<<<< HEAD
-=======
-	margin: 0px 43px 20px 17px;
->>>>>>> 9b06a58192f30c73935827ead4949aeb70433615
 }
 .description___title-list {
 	font-size: 30px;
 	font-weight: 600;
 	padding-left: 16px
 }
-<<<<<<< HEAD
-.description__security {
-=======
 description__security {
->>>>>>> 9b06a58192f30c73935827ead4949aeb70433615
 	   padding-top: 50px;
 }
 .description__claster {
@@ -352,30 +344,6 @@ description__security {
 .footer__develop {
 	font-weight: bold;
    	 font-size: 9px;
-<<<<<<< HEAD
-=======
-}
-@media screen and (max-width: 1225px) {
-	.description {
-		flex-direction: column-reverse;
-	}
-	.description__fond {
-		width: 100%;
-	}
-	.description__car-img {
-		width: 100%;
-		position: static;
-	}
-	.description__logo {
-		display: none;
-	}
-	.description__wrap {
-		display: flex;
-	}
-	.description__claster { 
-		width: 650px;
-	}
->>>>>>> 9b06a58192f30c73935827ead4949aeb70433615
 }
 
 @media screen and (max-width: 1080px) {
