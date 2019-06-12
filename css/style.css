@@ -64,16 +64,18 @@ body {
 }
 .characteristic__content-mark {
 	display: block;
-    height: auto;
+    	height: auto;
 	width: 100%;
+}
+.characteristic__content {
+	margin-bottom: 30px;
 }
 .characteristic__wrap {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin-bottom: 30px;
-	width: 980px;
-    margin: 0 auto;
+	width: 790px;
+    	margin: 0 auto;
 }
 .params {
 	display: flex;
@@ -234,7 +236,7 @@ body {
 .specification__item-sp_tiny {
 	font-weight: 600;
 	font-size: 20px;
-	margin: 0 0 0 0;
+	margin: 0;
 }
 .options__item-cont {
 	font-weight: normal;
@@ -267,13 +269,14 @@ body {
 .description__text {
 	font-size: 15px;
 	font-weight: 500;
-	margin: 0px 43px 20px 17px;
-	padding-left: 15px;
 }
 .description___title-list {
 	font-size: 30px;
 	font-weight: 600;
 	padding-left: 16px
+}
+.description__security {
+	   padding-top: 50px;
 }
 .description__claster {
 	display: flex;
@@ -330,45 +333,26 @@ body {
 }
 .description__info {
 	width: 361px;
-    margin: 0 auto 46px auto;
+    	margin: 0 auto 46px auto;
 }
 .footer {
-    display: flex;
-    flex-direction: column;
+    	display: flex;
+    	flex-direction: column;
 	justify-content: flex-end;
 	text-align: center;
 }
 .footer__develop {
 	font-weight: bold;
-    font-size: 9px;
+   	 font-size: 9px;
 }
-@media screen and (max-width: 1225px) {
-	.description {
-		flex-direction: column-reverse;
-	}
-	.description__fond {
-		width: 100%;
-	}
-	.description__car-img {
-		width: 100%;
-		position: static;
-	}
-	.description__logo {
-		display: none;
-	}
-	.description__wrap {
-		display: flex;
-	}
-	.description__claster { 
-		width: 650px;
-	}
-}
+
 @media screen and (max-width: 1080px) {
 
 	.log__option-btn {
 
 		color: #FFFFFF;
 		background: #E51937;
+		border: 0px solid;
 	}
 	.log__option_sm {
 		background: url(../img/steering-wheel_red.svg) bottom no-repeat;
@@ -396,10 +380,12 @@ body {
 	.specification__content {
 		width: 100%;
 		height: 571px;
-		}
-	.specification__characteristic {
-		margin-bottom: 59px;
-		}
+	}
+	.specification__picture {
+		background: url(../img/model_ipad.png) no-repeat;
+		width: 100%;
+		height: 497px;
+	}
 	.characteristic__wrap {
 		max-width: 370px;
 		margin: 30px auto;
@@ -433,6 +419,7 @@ body {
 	.specification__title {
 		text-align: end;
 		padding-right: 20px;
+		margin: 0;
 	}
 	
 	.specification__characteristic {
@@ -445,6 +432,38 @@ body {
 		display: none;
 		width: 0;
 		height: 0;
+	}
+	.description {
+		flex-direction: column-reverse;
+	}
+	.description__fond {
+		width: 100%;
+		padding: 17px 0px 0px 0px;
+	}
+	.description__car-img {
+		width: 100%;
+		position: static;
+	}
+	.description__title {
+		margin: 0;
+		padding-left: 15px;
+	}
+	.description__text {
+		padding-left: 15px;
+	}
+	.description__security {
+		padding-top: 26px;
+		padding-right: 27px;
+	}
+	.description__logo {
+		display: none;
+	}
+	.description__wrap {
+		display: flex;
+	}
+	.description__claster { 
+		width: 345px;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 680px) {
@@ -474,7 +493,7 @@ body {
 	.specification__characteristic {
 		margin-bottom: 62px;
 	}
-	.description__security {
+	.description__info {
 		display: none;
 	}
 }
@@ -488,5 +507,14 @@ body {
 	.specification__content {
 		height: 333px;
 	}
+	.description__security {
+		display: none;
+	}
 }
-
+@media screen and (max-width: 370px) {
+	.specification__picture {
+		background: url(../img/model_mobile.png) no-repeat;
+		width: 100%;
+		height: 334px;
+	}
+}
