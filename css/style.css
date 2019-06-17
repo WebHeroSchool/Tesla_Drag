@@ -75,7 +75,8 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	width: 790px;
-    	margin: 0 auto;
+	margin: 0 auto;
+	margin-bottom: 30px;
 }
 .params {
 	display: flex;
@@ -108,7 +109,10 @@ body {
     margin-right: 40px;
 }
 .log {
-    margin-top: 16px;
+    margin-top: 20px;
+}
+.characteristic__option {
+	padding-top: 5px;
 }
 .log__option_sm {
 	font-weight: 700;
@@ -175,6 +179,10 @@ body {
 	font-weight: 600;
 	font-size: 30px;
 	margin-bottom: 0;
+}
+.spec-content__text {
+	font-size: 15px;
+	font-weight: 500;
 }
 .specification__characteristic {
 	padding: 9px 0 0 35px;
@@ -390,6 +398,9 @@ description__security {
 		max-width: 370px;
 		margin: 30px auto;
 	}
+	.params {
+		padding-bottom: 10px;
+	}
 	.params__option {
 		font-size: 50px;
 	}
@@ -424,7 +435,10 @@ description__security {
 	
 	.specification__characteristic {
 		padding: 57px 0 0 35px;
-	}
+			margin-bottom: 50px;
+		
+		}
+	
 	.spacification__params {
 		padding-right: 0px;
 	}
@@ -460,6 +474,7 @@ description__security {
 	}
 	.description__wrap {
 		display: flex;
+		margin-bottom: 100px;
 	}
 	.description__claster { 
 		width: 345px;
@@ -473,6 +488,10 @@ description__security {
 	.intro__subtitle {
 		font-size: 10px;
 	}
+	.params {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	.params__option {
 		font-size: 27px;
 	}
@@ -482,9 +501,7 @@ description__security {
 	.params__clarification {
 		font-size: 10px;
 	}
-	.params__content {
-		width: 50px;
-	}
+
 	.spec-content {
 		padding: 0 0 0 25px;
 	}
@@ -498,6 +515,9 @@ description__security {
 	}
 	.description__title {
     		padding: 15px;
+	}
+	.description__wrap {
+			margin-bottom: 0px;
 	}
 }
 @media screen and (max-width: 524px) {
@@ -514,7 +534,7 @@ description__security {
 		display: none;
 	}
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
 	.specification__picture {
 		background: url(../img/model_mobile.png) no-repeat;
 		width: 100%;
