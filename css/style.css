@@ -353,9 +353,7 @@ body {
 	font-weight: bold;
    	 font-size: 9px;
 }
-
 @media screen and (max-width: 1080px) {
-
 	.log__option-btn {
 
 		color: #FFFFFF;
@@ -432,13 +430,10 @@ body {
 		padding-right: 20px;
 		margin: 0;
 	}
-	
 	.specification__characteristic {
 		padding: 57px 0 0 35px;
-			margin-bottom: 50px;
-		
+		margin-bottom: 50px;
 		}
-	
 	.spacification__params {
 		padding-right: 0px;
 	}
@@ -501,26 +496,32 @@ body {
 	.params__clarification {
 		font-size: 10px;
 	}
-
 	.spec-content {
 		padding: 0 0 0 25px;
+	}
+	.description__security {
+		padding-right: 0;
 	}
 }
 @media screen and (max-width: 570px) {
 	.specification__characteristic {
 		margin-bottom: 62px;
 	}
+	.specification__title {
+		display: none;
+	}
 	.description__info {
 		display: none;
 	}
 	.description__title {
-    		padding: 15px;
+    		padding: 0px;
+	}
+	.description__text {
+		padding: 0px;
 	}
 	.description__wrap {
 			margin-bottom: 0px;
 	}
-}
-@media screen and (max-width: 524px) {
 	.specification__characteristic {
 		display: none;
 	}
