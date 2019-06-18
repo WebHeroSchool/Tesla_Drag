@@ -82,7 +82,7 @@ body {
 	display: flex;
 }
 .params__content {
-    margin-top: 5px;
+    	margin-top: 5px;
 }
 .params__bunch {
 	padding-left: 5px;
@@ -103,13 +103,13 @@ body {
 }
 .params__option_sm {
 	font-weight: bold;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
-    margin-right: 40px;
+    	text-transform: uppercase;
+    	color: #000000;
+    	text-decoration: none;
+    	margin-right: 40px;
 }
 .log {
-    margin-top: 20px;
+   	margin-top: 20px;
 }
 .characteristic__option {
 	padding-top: 5px;
@@ -156,7 +156,7 @@ body {
 .specification__picture {
 	background: url(../img/model.png) no-repeat;
 	width: 100%;
-    height: 844px
+    	height: 844px
 }
 .specification__title {
 	font-size: 70px;
@@ -166,14 +166,14 @@ body {
 }
 .specification__content {
 	background: #E51937;
-    color: #fff;
-    width: 546px;
+    	color: #fff;
+   	width: 546px;
 	height: 844px;
 }
 .spec-content {
 	padding: 18px 0px 6px 35px;
 	width: 351px;
-    margin: 0 auto;
+    	margin: 0 auto;
 }
 .spec-content__title {
 	font-weight: 600;
@@ -205,30 +205,30 @@ body {
 }
 .specification__info {
 	width: 330px;
-    margin: 0 auto;
+    	margin: 0 auto;
 }
 .specification__link {
 	font-size: 13px;
 	font-weight: bold;
 	background: url(../img/info.svg) bottom no-repeat;
 	background-position-x: 0%;
-    padding-top: 5px;
-    padding-left: 25px;
-    text-transform: uppercase;
-    text-decoration: none;
+   	padding-top: 5px;
+    	padding-left: 25px;
+    	text-transform: uppercase;
+    	text-decoration: none;
 	color: #FFFFFF;
 	padding: 4px 17px 4px 25px;
 }
 .specification__btn {
 	font-weight: 700;
-    color: #FFFFFF;
-    width: 160px;
-    height: 40px;
-    text-transform: uppercase;
-    border: 2px solid;
-    background: #E51937;
-    outline: none;
-    cursor: pointer;
+    	color: #FFFFFF;
+    	width: 160px;
+    	height: 40px;
+    	text-transform: uppercase;
+    	border: 2px solid;
+    	background: #E51937;
+    	outline: none;
+    	cursor: pointer;
 }
 .options__item {
 	font-weight: 600;
@@ -256,23 +256,23 @@ body {
 }
 .description__car-img {
 	width: 110%;
-    top: 279px;
-    right: 79px;
-    position: relative;
+    	top: 279px;
+    	right: 79px;
+    	position: relative;
 }
 .description__car-img__smoll {
 	display: none;
 }
 .description__fond {
 	background-color: #e51937;
-    color: #fff;
+    	color: #fff;
 	width: 465px;
 	padding: 18px 0px 6px 17px;
 }
 .description__title {
 	font-size: 30px;
 	font-weight: 600;
-    padding: 50px 0 10px 36px;
+    	padding: 50px 0 10px 36px;
 }
 .description__text {
 	font-size: 15px;
@@ -284,35 +284,35 @@ body {
 	padding-left: 16px
 }
 .description__security {
-	   padding-top: 50px;
+	padding-top: 50px;
 }
 .description__claster {
 	display: flex;
-    flex-direction: column;
-    margin: 0 0 85px 0px;
+    	flex-direction: column;
+   	margin: 0 0 85px 0px;
 }
 .description__title {
 	font-size: 30px;
-    font-weight: 600;
-    padding-left: 16px;
+    	font-weight: 600;
+    	padding-left: 16px;
 }
 .rating {
 	padding-left: 16px;
-    display: flex;
-    flex-direction: column;
+    	display: flex;
+    	flex-direction: column;
 }
 .description__rating-category {
-    margin-bottom: 12px;
-    display: flex;
-    justify-content: space-between;
-    width: 285px;
-    align-items: center;
+    	margin-bottom: 12px;
+    	display: flex;
+    	justify-content: space-between;
+   	width: 285px;
+    	align-items: center;
 }
 .rating__point {
 	font-size: 17px;
-    line-height: 21px;
-    font-weight: 700;
-    text-transform: uppercase;
+    	line-height: 21px;
+    	font-weight: 700;
+    	text-transform: uppercase;
 }
 .rating__point-add {
 	font-weight: bold;
@@ -320,8 +320,8 @@ body {
 }
 .rating__stars {
 	display: inline-block;
-    width: 135px;
-    height: 25px;
+   	width: 135px;
+    	height: 25px;
 	background-image: url(../img/Star.svg);
 	background-size: 27px 25px;
 }
@@ -355,7 +355,6 @@ body {
 }
 @media screen and (max-width: 1080px) {
 	.log__option-btn {
-
 		color: #FFFFFF;
 		background: #E51937;
 		border: 0px solid;
