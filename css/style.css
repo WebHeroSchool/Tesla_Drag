@@ -466,6 +466,10 @@ body {
 		margin: 0;
 		padding-left: 15px;
 	}
+	.description___title-list {
+    		margin: 0;
+		margin-bottom: 12;
+	}
 	.description__text {
 		padding-left: 15px;
 	}
