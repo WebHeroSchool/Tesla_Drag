@@ -370,6 +370,15 @@ body {
 		padding-top: 3px;
 		color: #E51937;
 	}
+	.description__fom {
+		padding-top: 25%;
+	}
+	.description__car-img {
+		position: static;
+	}
+	.description__car-wotermark {
+		position: static;
+		padding-left: 15%;
 }
 @media screen and (max-width: 902px) {
 	.header-navigation {
@@ -457,6 +466,9 @@ body {
 	}
 	.description__car-wotermark {
 		display: none;
+	}
+	.description__fom {
+		padding-top: 0px;
 	}
 	.description__car-mob {
 		display: block;
