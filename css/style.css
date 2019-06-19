@@ -256,7 +256,6 @@ body {
 }
 .description__car-img {
 	width: 110%;
-<<<<<<< HEAD
 	top: 29px;
 	right: 79px;
 	position: relative;
@@ -266,11 +265,7 @@ body {
 	width: 100%;
 	top: 155;
 	left: 35;
-=======
-    	top: 279px;
-    	right: 79px;
-    	position: relative;
->>>>>>> 340492ac2138ac96cf7ee392c75dbab3970ed490
+
 }
 .description__car-img__smoll {
 	display: none;
@@ -287,12 +282,9 @@ body {
 .description__title {
 	font-size: 30px;
 	font-weight: 600;
-<<<<<<< HEAD
 	padding: 0px;
 	margin-bottom: 0px;
-=======
-    	padding: 50px 0 10px 36px;
->>>>>>> 340492ac2138ac96cf7ee392c75dbab3970ed490
+
 }
 .description__text {
 	font-size: 15px;
@@ -303,26 +295,11 @@ body {
 	font-weight: 600;
 	padding-left: 16px
 }
-<<<<<<< HEAD
 .description__claster {
 	display: flex;
 	flex-direction: column;
 	width: 95%;
 	margin: 0 auto;
-=======
-.description__security {
-	padding-top: 50px;
-}
-.description__claster {
-	display: flex;
-    	flex-direction: column;
-   	margin: 0 0 85px 0px;
-}
-.description__title {
-	font-size: 30px;
-    	font-weight: 600;
-    	padding-left: 16px;
->>>>>>> 340492ac2138ac96cf7ee392c75dbab3970ed490
 }
 .rating {
 	padding-left: 16px;
