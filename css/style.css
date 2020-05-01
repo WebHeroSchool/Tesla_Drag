@@ -1,3 +1,567 @@
 body {
 	font-family: "Montserrat";
+	margin: 0px;
+}
+.wrap {
+	margin: 0 auto;
+	max-width: 1440px;
+	min-width: 375px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+   	align-items: center;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 65px;
+}
+.header-navigation {
+	margin-left: 7px;
+}
+.header-navigation__link {
+	text-decoration: none;
+	color: #000000;
+	margin: 0px 32px 1px 0;
+	
+}
+.header-navigation__link:hover {
+	color: #E51937;
+	border-bottom: 2px solid;
+	padding: 0px 0px 6px 0;
+}
+.header-navigation__link_active {
+	color: #E51937;
+	border-bottom: 2px solid;
+	padding: 0px 0px 6px 0px;
+}
+.menu {
+	margin-right: 0px;
+}
+.menu__item {
+	text-decoration: none;
+	margin-right: 25px;
+	color: #000000;
+}
+.menu__item:hover {
+	color: #E51937;
+	border-bottom: 2px solid;
+	padding: 0px 0px 6px 0;
+}
+.menu__burger {
+	margin-right: 8px;
+}
+.intro__title {
+	font-size: 90px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0;
+}
+.intro__subtitle {
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 0;
+	text-align: center;
+}
+.characteristic__content-mark {
+	display: block;
+    	height: auto;
+	width: 100%;
+}
+.characteristic__content {
+	margin-bottom: 30px;
+}
+.characteristic__wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 790px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.params {
+	display: flex;
+}
+.params__content {
+    	margin-top: 5px;
+}
+.params__bunch {
+	padding-left: 5px;
+}
+.params__option {
+	font-size: 35px;
+	font-weight: 600;
+	margin: auto;
+}
+.params-spn {
+	font-size: 20px;
+	font-weight: 600;
+}
+.params__clarification {
+	font-size: 12px;
+	font-weight: 400;
+	display: block;
+}
+.params__option_sm {
+	font-weight: bold;
+    	text-transform: uppercase;
+    	color: #000000;
+    	text-decoration: none;
+    	margin-right: 40px;
+}
+.log {
+   	margin-top: 20px;
+}
+.characteristic__option {
+	padding-top: 5px;
+}
+.log__option_sm {
+	font-weight: 700;
+	background: url(../img/steering-wheel.svg) bottom no-repeat;
+	background-position-x: 0%;
+	padding-top: 5px;
+	padding-left: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.log__option_sm:hover {
+	color: #E51937;
+	background: url(../img/steering-wheel_red.svg) bottom no-repeat;
+	background-position-x: 0%;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+.log__option-btn {
+	font-weight: 700;
+	color: #E51937;
+	width: 160px;
+	height: 40px;
+	text-transform: uppercase;
+	border: 2px solid;
+	background: #FFFFFF;
+	outline: none;
+	cursor: pointer;
+}
+.log__option-btn:hover {
+	color: #FFFFFF;
+	background: #E51937;
+}
+.intro__check {
+	display: block;
+	margin: 0px auto 36px;
+}
+.specification {
+	display: flex;
+}
+.specification__picture {
+	background: url(../img/model.png) no-repeat;
+	width: 100%;
+    	height: 844px
+}
+.specification__title {
+	font-size: 70px;
+	font-weight: 600;
+	color:#E51937;
+	padding-left: 26px;
+}
+.specification__content {
+	background: #E51937;
+    	color: #fff;
+   	width: 546px;
+	height: 844px;
+}
+.spec-content {
+	padding: 18px 0px 6px 35px;
+	width: 351px;
+    	margin: 0 auto;
+}
+.spec-content__title {
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.spec-content__text {
+	font-size: 15px;
+	font-weight: 500;
+}
+.specification__characteristic {
+	padding: 9px 0 0 35px;
+	margin-bottom: 100px;
+}
+.spacification__params {
+	display: flex;
+	padding-top: 18px;
+	margin-bottom: 44px;
+	padding-right: 100px;
+}
+.specification__pic {
+	padding-top: 5px;
+}
+.specification__options {
+	padding-left: 20px;
+}
+.specification__options_tiny {
+	padding-left: 12px;
+}
+.specification__info {
+	width: 330px;
+    	margin: 0 auto;
+}
+.specification__link {
+	font-size: 13px;
+	font-weight: bold;
+	background: url(../img/info.svg) bottom no-repeat;
+	background-position-x: 0%;
+   	padding-top: 5px;
+    	padding-left: 25px;
+    	text-transform: uppercase;
+    	text-decoration: none;
+	color: #FFFFFF;
+	padding: 4px 17px 4px 25px;
+}
+.specification__btn {
+	font-weight: 700;
+    	color: #FFFFFF;
+    	width: 160px;
+    	height: 40px;
+    	text-transform: uppercase;
+    	border: 2px solid;
+    	background: #E51937;
+    	outline: none;
+    	cursor: pointer;
+}
+.options__item {
+	font-weight: 600;
+	font-size: 35px;
+	margin: 0px;
+}
+.specification__item-sp {
+	font-weight: 600;
+	font-size: 20px;
+	padding-left: 9px;
+	margin-bottom: 0;
+}
+.specification__item-sp_tiny {
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0;
+}
+.options__item-cont {
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0px;
+}
+.description {
+	display: flex;
+}
+.description__car-img {
+	width: 110%;
+	top: 29px;
+	right: 79px;
+	position: relative;
+}
+.description__car-wotermark {
+	position: relative;
+	width: 100%;
+	top: 155;
+	left: 35;
+
+}
+.description__car-img__smoll {
+	display: none;
+}
+.description__car-mob {
+	display: none;
+}
+.description__fond {
+	background-color: #e51937;
+    	color: #fff;
+	width: 465px;
+	padding: 18px 0px 6px 17px;
+}
+.description__title {
+	font-size: 30px;
+	font-weight: 600;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.description__text {
+	font-size: 15px;
+	font-weight: 500;
+}
+.description___title-list {
+	font-size: 30px;
+	font-weight: 600;
+	padding-left: 16px
+}
+.description__claster {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	margin: 0 auto;
+}
+.rating {
+	padding-left: 16px;
+    	display: flex;
+    	flex-direction: column;
+}
+.description__rating-category {
+    	margin-bottom: 12px;
+    	display: flex;
+    	justify-content: space-between;
+   	width: 285px;
+    	align-items: center;
+}
+.rating__point {
+	font-size: 17px;
+    	line-height: 21px;
+    	font-weight: 700;
+    	text-transform: uppercase;
+}
+.rating__point-add {
+	font-weight: bold;
+	font-size: 10px;
+}
+.rating__stars {
+	display: inline-block;
+   	width: 135px;
+    	height: 25px;
+	background-image: url(../img/Star.svg);
+	background-size: 27px 25px;
+}
+.description__logo {
+	display: flex;
+	padding-left: 15px;
+}
+.description__star {
+	font-weight: 600;
+	font-size: 50px;
+	padding-left: 20px;
+}
+.description__star-on {
+	font-weight: 600;
+	font-size: 25px;
+	display: block;
+}
+.description__info {
+	width: 361px;
+    	margin: 0 auto 46px auto;
+}
+.footer {
+    	display: flex;
+    	flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
+}
+.footer__develop {
+	font-weight: bold;
+   	 font-size: 9px;
+}
+@media screen and (max-width: 1080px) {
+	.log__option-btn {
+		color: #FFFFFF;
+		background: #E51937;
+		border: 0px solid;
+	}
+	.log__option_sm {
+		background: url(../img/steering-wheel_red.svg) bottom no-repeat;
+		background-position-x: 0%;
+		padding-top: 3px;
+		color: #E51937;
+	}
+	.description__fom {
+		padding-top: 25%;
+	}
+	.description__car-img {
+		position: static;
+	}
+	.description__car-wotermark {
+		position: static;
+		padding-left: 15%;
+}
+@media screen and (max-width: 902px) {
+	.header-navigation {
+		 display: none;
+	}
+	.menu__item {
+	 	display: none;
+	}
+}
+@media screen and (max-width: 760px) {
+	.specification {
+		display: flex;
+		flex-direction: column; 
+	}
+	.specification__wrap {
+		display: flex;
+	}
+	.specification__content {
+		width: 100%;
+		height: 530px;
+	}
+	.specification__picture {
+		background: url(../img/model_ipad.png) no-repeat;
+		width: 100%;
+		height: 497px;
+	}
+	.characteristic__wrap {
+		max-width: 370px;
+		margin: 30px auto;
+	}
+	.params {
+		padding-bottom: 10px;
+	}
+	.params__option {
+		font-size: 50px;
+	}
+	.log__option_sm {
+		color: #E51937;
+		background: url(../img/steering-wheel_red.svg) bottom no-repeat;
+		background-position-x: 0%;
+		padding-top: 5px;
+		padding-left: 25px;
+	}
+	.log__option_sm:hover {
+		background: url(../img/steering-wheel.svg) bottom no-repeat;
+		background-position-x: 0%;
+		padding-top: 5px;
+		padding-left: 25px;
+	}
+	.log__option-btn {
+		color: #FFFFFF;
+		background: #E51937;
+		outline: none;
+	}
+	.log__option-btn:hover {
+		color: #E51937;
+		background: #FFFFFF;
+		outline: none;
+	}
+	.specification__title {
+		text-align: end;
+		padding-right: 20px;
+		margin: 0;
+	}
+	.specification__characteristic {
+		margin-bottom: 50px;
+		}
+	.spacification__params {
+		padding-right: 0px;
+	}
+	.footer {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	.description {
+		flex-direction: column-reverse;
+	}
+	.description__fond {
+		width: 100%;
+		padding: 17px 0px 0px 0px;
+	}
+	.description__car-img {
+		display: none;
+	}
+	.description__car-wotermark {
+		display: none;
+	}
+	.description__fom {
+		padding-top: 0px;
+	}
+	.description__car-mob {
+		display: block;
+		width: 100%
+	}
+	.description__title {
+		margin: 0;
+		padding-left: 15px;
+	}
+	.description___title-list {
+   		 margin-top: 0;
+	}
+	.description__text {
+		padding-left: 15px;
+	}
+	.description__security {
+		padding-top: 0px;
+		padding-right: 27px;
+	}
+	.description__logo {
+		display: none;
+	}
+	.description__wrap {
+		display: flex;
+		margin-bottom: 100px;
+	}
+	.description__claster { 
+		width: 345px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 680px) {
+	.intro__title {
+		font-size:50px;
+	}
+	.intro__subtitle {
+		font-size: 10px;
+	}
+	.params {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.params__option {
+		font-size: 27px;
+	}
+	.params-spn {
+		font-size: 15px;
+	}
+	.params__clarification {
+		font-size: 10px;
+	}
+	.spec-content {
+		padding: 0 0 0 25px;
+	}
+	.description__security {
+		padding-right: 0;
+	}
+}
+@media screen and (max-width: 570px) {
+	.specification__characteristic {
+		margin-bottom: 62px;
+	}
+	.specification__title {
+		display: none;
+	}
+	.description__info {
+		display: none;
+	}
+	.description__title {
+    		padding: 0px;
+	}
+	.description__text {
+		padding: 0px;
+	}
+	.description__wrap {
+			margin-bottom: 0px;
+	}
+	.specification__characteristic {
+		display: none;
+	}
+	.specification__info {
+		display: none;
+	}
+	.specification__content {
+		height: 333px;
+	}
+	.description__security {
+		display: none;
+	}
+}
+@media screen and (max-width: 375px) {
+	.specification__picture {
+		background: url(../img/model_mobile.png) no-repeat;
+		width: 100%;
+		height: 334px;
+	}
 }
